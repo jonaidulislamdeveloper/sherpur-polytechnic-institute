@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login-Form</title>
+        <!-- --------------------Google_fonts_link---------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- ------------------Font-awesome_link--------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- --------------Bootstrap_link-css------------------------ -->
+        <link rel="stylesheet" href="./assetes/css/bootstrap.min.css">
+        <!-- ------------------owl_carousel------------------ -->
+        <link rel="stylesheet" href="./assetes/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assetes/css/owl.theme.default.min.css">
+        <!-- ----------------------magnific-popup-------------------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- -----------------------favicon_link----------------------- -->
+        <link rel="icon" href="./assetes/img/favicon.png">
+          <!-- -----------------------------Style_css_link------------------- -->
+        <!-- <link rel="stylesheet" href="./assetes/css/style.css">
+        <link rel="stylesheet" href="./assetes/css/responsive.css"> -->
+        <style>
+            /*set border to the form*/
+            
+            form {
+                border: 3px solid #f1f1f1;
+            }
+            /*assign full width inputs*/
+            
+            input[type=number],
+            input[type=password] {
+                width: 100%;
+                padding: 12px 20px;
+                margin: 8px 0;
+                display: inline-block;
+                border: 1px solid #ccc;
+                box-sizing: border-box;
+            }
+            /*set a style for the buttons*/
+            
+            button {
+                background-color: #4CAF50;
+                color: white;
+                padding: 14px 20px;
+                margin: 8px 0;
+                border: none;
+                cursor: pointer;
+                width: 100%;
+            }
+            /* set a hover effect for the button*/
+            
+            button:hover {
+                opacity: 0.8;
+            }
+            /*set extra style for the cancel button*/
+            
+            .cancelbtn {
+                width: auto;
+                padding: 10px 18px;
+                background-color: #f44336;
+            }
+            /*centre the display image inside the container*/
+            
+            .imgcontainer {
+                text-align: center;
+                margin: 24px 0 12px 0;
+            }
+            /*set image properties*/
+            
+            img.avatar {
+                width: 40%;
+                border-radius: 50%;
+            }
+            /*set padding to the container*/
+            
+            .container {
+                padding: 16px;
+            }
+            /*set the forgot password text*/
+            
+            span.psw {
+                float: right;
+                padding-top: 16px;
+            }
+            /*set styles for span and cancel button on small screens*/
+            
+            @media screen and (max-width: 300px) {
+                span.psw {
+                    display: block;
+                    float: none;
+                }
+                .cancelbtn {
+                    width: 100%;
+                }
+            }
+        </style>
+</head>
+<body>
+    <h2 class="m-0 text-center">Login Form</h2>
+	<!--Step 1 : Adding HTML-->
+	<form action="/action_page.php">
+		<div class="imgcontainer my-4" style="width: 150px; height: 150px; border-radius: 50%; margin: 0 auto; border: 2px solid green; display: flex; justify-content: center; align-items: center;">
+            <i class="fa-solid fa-user" style="font-size: 70px; color: green;"></i>
+		</div>
+		<div class="container">
+			<label><b>Number</b></label>
+			<input type="number" placeholder="Enter number" name="number" required>
+
+			<label><b>Password</b></label>
+			<input type="password" placeholder="Enter Password" name="psw" required>
+
+			<button type="submit">Login</button>
+			<input type="checkbox" checked="checked"> Remember me
+		</div>
+		<div class="container" style="background-color:#f1f1f1">
+			<button type="button" class="cancelbtn">Cancel</button>
+			<span class="psw">Forgot <a href="#">password?</a></span>
+		</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up Form</title>
+        <!-- --------------------Google_fonts_link---------------------->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+        <!-- ------------------Font-awesome_link--------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+        <!-- --------------Bootstrap_link-css------------------------ -->
+        <link rel="stylesheet" href="./assetes/css/bootstrap.min.css">
+        <!-- ------------------owl_carousel------------------ -->
+        <link rel="stylesheet" href="./assetes/css/owl.carousel.min.css">
+        <link rel="stylesheet" href="./assetes/css/owl.theme.default.min.css">
+        <!-- ----------------------magnific-popup-------------------------- -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- -----------------------favicon_link----------------------- -->
+        <link rel="icon" href="./assetes/img/favicon.png">
+          <!-- -----------------------------Style_css_link------------------- -->
+        <link rel="stylesheet" href="./assetes/css/style.css">
+        <link rel="stylesheet" href="./assetes/css/responsive.css">
+
+        <style>
+      
+
+        /* .student_teacher_signup_from .teacher-signup a{
+            font-size: 24px;
+            font-weight: -700;
+            color: #fff;
+            background: red;
+            padding: 10px 40px;
+            text-transform: capitalize;
+            border-radius: 5px;
+            transition: .4s;
+        } */
+
+       
+
+         .signup_from .signup-icon span i{
+            font-size: 80px;
+            color: green;
+        }
+
+      .signup_from form label{
+            font-size: 18px;
+            font-weight: 500;
+            color: #000;
+            text-transform: capitalize;
+        }
+
+        .signup_from form input{
+            width: 100%;
+            padding: 10px;
+            border: none;
+            background: #c6b8b8;
+            color:#fff;
+            overflow: hidden;
+        }
+       .signup_from form input:focus{
+            outline: none;
+        }
+        .signup_from form .submit_btn input{
+            background: green;
+            transition: .4s;
+        }
+       .signup_from form .submit_btn input:hover{
+            background: rgb(21, 173, 21);
+        }
+        .signup_from form  .already_account p{
+            font-size: 14px;
+            font-weight: 500;
+            color: #000;
+        }
+         .signup_from form  .already_account p a{
+            color: red;
+        }
+
+        .signup_from form {
+            background: rgb(211, 217, 211);
+            padding: 30px;
+            box-shadow: 0 0 25px #111111;
+            border-radius: 20px;
+        }
+
+        .main_page{
+            position: relative;
+        }
+
+       .signup_from {
+            width: 80%;
+        }
+
+       .signup_from{
+            position: absolute;
+            top: 5%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            transform: scale(1);
+        }
+
+          .signup_from form{
+            position: relative;
+        }
+
+       .signup_from form .close_btn span i{
+            font-size: 22px;
+            color: red;
+            font-weight: 700;
+            position: absolute;
+            top: 10px;
+            right: 20px;
+            cursor: pointer;
+        }
+        </style>
+</head>
+<body>
+ 
+
+    <div class="signup_from">
+        <form action="" method="">
+            <div class="signup-icon text-center pb-4">
+                <span><i class="fa-solid fa-circle-user"></i></span>
+                <h4 class="pt-2" style="font-size: 22px; font-weight: 700; color: green; text-transform: capitalize;">Sign-In</h4>
+            </div>
+            <div class="name">
+                <label for="name"><b>Full-Name</b></label>
+                <input type="text" placeholder="Enter your name" name="name" required><br>
+            </div>
+            <div class="dept pt-3">
+                <label for="Department"><b>Department</b></label>
+                <input type="text" placeholder="Department name" name="Department" required><br>
+            </div>
+            <div class="session pt-3">
+                <label for="name"><b>Session</b></label>
+                <input type="text" placeholder="Session" name="Session" required><br>
+            </div>
+            <div class="phone pt-3">
+                <label for="Phone"><b>Phone</b></label>
+                <input type="tel" placeholder="Enter your phone number" name="name" required><br>
+            </div>
+           <div class="pass pt-3">
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required><br>
+           </div>
+           <div class="submit_btn pt-4 text-center">
+            <input type="submit" value="Sign-In">
+           </div>
+           <div class="already_account pt-2">
+           <p> Allready Have a Account:<a href="student-teacher-login-form.html" id="open_login" target="_blank"> Click Here!</a></p>
+           </div>
+           <!-- <div class="close_btn">
+            <span><i class="fa-solid fa-times"></i></span>
+           </div> -->
+        </form>
+    </div> 
+
+
+
+
+
+</body>
+</html>

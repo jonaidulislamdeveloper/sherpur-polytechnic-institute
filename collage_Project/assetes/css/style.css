@@ -1,0 +1,546 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Mukti', Arial, sans-serif !important;
+    background-image: url(../img/pattern.png);
+    background-repeat: repeat;
+    background-size: 90px;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+    max-width: 1250px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+.main_page {
+    background: #f0f0f0;
+    box-shadow: 0 0 25px #111111;
+    padding: 10 px;
+    overflow: hidden;
+    margin-bottom: 35px;
+    border-radius: 0 0 5px 5px;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+
+
+
+/* =============================topabar-section===================== */
+
+.topbar-section{
+    background: green;
+    padding: 6px 0;
+}
+
+.topbar-section a {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.topbar-section .right_content .login_from a {
+    text-transform: capitalize;
+    background: rgb(33, 157, 33);
+    border-radius: 10px;
+    color: #fff;
+    padding: 0 10px;
+    transition: .4s;
+}
+.topbar-section .right_content .login_from a:hover{
+    background: rgb(3, 182, 3);
+    color: #fff;
+}
+
+
+/* =======================header_section=================== */
+
+
+.header_section .header_slider_section{
+  height: 70vh;
+}
+
+/* ======================slider-section====================== */
+
+.header_section {
+    border: 6px solid green;
+    border-top: none;
+}
+.header_section .header_slider_section .one_slide{
+    background: url(../img/slide-one.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.header_section .header_slider_section .two_slide{
+    background: url(../img/slide-two.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.header_section .header_slider_section .three_slide{
+    background: url(../img/slide-three.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.header_section .header_slider_section .four_slide{
+    background: url(../img/slide-four.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.header_section .header_slider_section .five_slide{
+    background: url(../img/slide-five.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.header_section .header_slider_section .six_slide{
+    background: url(../img/slide-six.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 70vh;
+}
+
+.header_section .header_slider_section{
+    position: relative;
+}
+
+.header_section .header_slider_section .header-slider-nav{
+    display: flex !important;
+    justify-content: space-between !important;
+    position: absolute;
+    width: 100%;
+    top: 38%;
+}
+
+
+.header_section .header_slider_section .header-slider-nav .owl-prev{
+    font-size: 60px !important;
+    color: red !important;
+    margin-left: 20px !important;
+}
+.header_section .header_slider_section .header-slider-nav .owl-next{
+    font-size: 60px !important;
+    color: red !important;
+    margin-right: 20px !important;
+}
+
+.header_section .header_slider_section .slider{
+    position: relative;
+}
+
+.header_section .header_slider_section .slide_content{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.header_section .header_slider_section .slide_content p{
+    font-size: 22px;
+    color: #fff;
+    font-weight: 700;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    letter-spacing: 2px;
+}
+
+
+.header_banner_section .mobaile_banner .logo_content h2{
+    font-size: 22px;
+    font-weight: 700;
+    color: #000;
+}
+
+.header_banner_section .mobaile_banner .logo_content img{
+    width: 150px;
+}
+
+.header_banner_section .banner  img{
+    width: 100%;
+}
+
+/* ====================navbar-section===================== */
+
+.navbar_section .navbar-nav li{
+    padding: 0 6px;
+}
+.navbar_section .navbar-nav li a{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: green !important;
+}
+
+.navbar_section .navbar-nav li a:hover{
+    background: green;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+.navbar_section .navbar-nav li .active{
+    background: green !important;
+    color: #fff !important;
+    border-radius: 5px;
+}
+
+
+/* ============================content-area-============================= */
+
+.current_news_section {
+    background: green;
+    margin-left: 0px;
+}
+.current_news_section .title  h2{
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.current_news_section  .news_content p{
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+
+/* ==========================notice_board_section============= */
+
+
+.notice_board_section .notice_title h2 a{
+    font-size: 26px;
+    color: green;
+    font-weight: 700;
+    text-decoration: underline;
+    transition: .4s;
+    text-transform: uppercase;
+}
+.notice_board_section .notice_title h2 a:hover{
+    color: red;
+}
+
+.notice_board_section .notice_board_content ul li{
+    list-style: square;
+    margin-left: 20px;
+    color: red;
+}
+
+.notice_board_section .notice_board_content ul li a{
+    font-size: 14px;
+    font-weight: 500;
+    color: green;
+    text-transform: capitalize;
+}
+.notice_board_section .notice_board_content ul li a:hover{
+    color: red;
+}
+
+.notice_board_section .notice_board_content ul li span{
+    margin-left: 15px;
+}
+.notice_board_section .notice_board_content{
+    box-shadow: 0 0 5px #111111;
+    border-radius: 10px;
+}
+
+/* ============================event_section================= */
+
+.event_section .evt_content_des {
+    border: 3px solid green;
+    border-top: none;
+    padding-left: 10px;
+    background: #fff;
+}
+
+.event_section .evt_content_area .evt_title{
+    background: green;
+    padding: 5px 0;
+}
+
+.event_section .evt_content_area .evt_title h2{
+    font-size: 26px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin-left: 7px !important;
+}
+
+.event_section .evt_content_area  .evt_content_des .month_date{
+    border: 2px solid green;
+}
+
+.event_section .evt_content_area  .evt_content_des .month_date .month {
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    background: green;
+    padding: 13px 0;
+}
+
+.event_section .evt_content_area  .evt_content_des .month_date .date{
+    font-size: 16px;
+    font-weight: 700;
+    color: green;
+    padding: 13px 0;
+}
+
+.event_section .evt_content_area  .evt_title_des h4 a{
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+    text-transform: capitalize;
+}
+
+.event_section .evt_content_area  .evt_title_des h4 a:hover{
+    opacity: .7;
+}
+
+.event_section .evt_content_area  .evt_title_des p{
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-transform: capitalize;
+}
+
+.event_section .evt_content_area  .evt_content_des .evt_more_btn  .evt_btn{
+    text-align: center;
+}
+
+.event_section .evt_content_area  .evt_content_des .evt_more_btn  .evt_btn a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #000;
+    text-transform: capitalize;
+    text-align: center;
+    padding: 7px 320px 7px 320px;
+    border: 2px solid green;
+    border-radius: 15px;
+    transition: .4s;
+}
+
+.event_section .evt_content_area  .evt_content_des .evt_more_btn  .evt_btn a:hover{
+    background: green;
+    color: #fff;
+}
+
+/* =================start-academic-section-content====================== */
+.dept_section .dept_content .dept_title {
+    border-bottom: 2px solid green;
+}
+.dept_section .dept_content .dept_title h2{
+    font-size: 18px;
+    font-weight: 700;
+    color: green;
+    text-transform: uppercase;
+}
+
+.dept_section .dept_content .icon_content span i{
+    font-size: 60px;
+    color: green;
+    padding-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+}
+
+.dept_section .dept_content  .text_content ul li a{
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+    text-transform: capitalize;
+    transition: .7s;
+}
+
+.dept_section .dept_content  .text_content ul li a:hover{
+    padding-left: 10px;
+    color: red;
+}
+
+.dept_section .dept_content {
+    box-shadow: 0 0 5px #111111;
+    border-radius: 5px;
+    padding: 20px 0;
+}
+
+/* ========================principal_section================ */
+.principal_section .title {
+    background: green;
+    padding: 4px 0 4px 4px;
+}
+
+.principal_section .title h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.principal_section  .name_more .name h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+    text-transform: capitalize;
+}
+
+.principal_section  .name_more  .more{
+    display: flex;
+    justify-content: end;
+}
+.principal_section  .name_more  .more a{
+    font-size: 14px;
+    font-weight: 700;
+    color: green;
+    text-transform: uppercase;
+}
+.principal_section  .name_more  .more a:hover{
+    text-decoration: underline;
+}
+
+/* -------vice-principal-------- */
+.vice_principal .title{
+    background: green;
+    padding: 4px 0 4px 4px;
+}
+
+.vice_principal .title h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.vice_principal  .name_more .name h4{
+    font-size: 16px;
+    font-weight: 600;
+    color: green;
+    text-transform: capitalize;
+}
+
+.vice_principal  .name_more  .more{
+    display: flex;
+    justify-content: end;
+}
+.vice_principal  .name_more  .more a{
+    font-size: 14px;
+    font-weight: 700;
+    color: green;
+    text-transform: uppercase;
+}
+.vice_principal .name_more  .more a:hover{
+    text-decoration: underline;
+}
+
+/* ======================fb_page_section ============== */
+
+.fb_page_section .title{
+    background: green;
+    padding: 4px 0 4px 4px;
+}
+.fb_page_section .title h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+/* =======================photo_gallery_section=================== */
+
+.photo_gallery_section .title{
+    background: green;
+    padding: 4px 0 4px 4px;
+}
+.photo_gallery_section .title h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.photo_gallery_section  .view_more a{
+    font-size: 14px;
+    font-weight: 700;
+    color: green;
+    text-transform: capitalize;
+}
+.photo_gallery_section  .view_more a:hover{
+    text-decoration: underline;
+}
+
+.video_gallery .title{
+    background: green;
+    padding: 4px 0 4px 4px;
+}
+
+.video_gallery .title h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.nation_song  .title{
+    background: green;
+    padding: 4px 0 4px 4px;
+}
+
+.nation_song .title h2{
+    font-size: 22px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+
+/* =========================footer_section==================== */
+
+.footer_section .quick_links ul li a,
+.footer_section .contect_us ul li,
+.footer_section .contect_us ul li a{
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+}
+.footer_section .quick_links ul li a:hover{
+    text-decoration: underline;
+}
+
+.footer_section .contect_us ul li:hover,
+.footer_section .contect_us ul li a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
